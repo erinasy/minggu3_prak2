@@ -46,10 +46,8 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 
                         <section>
-                            <h3 class="tm-gold-text tm-form-title">Praktikum Web Lanjut</h3>
-                            <p class="tm-form-description">Membahas tentang view</p> 
-
-
+                            <h3 class="tm-gold-text tm-form-title">Lorem ipsum dolor</h3>
+                            <p class="tm-form-description">Pellentesque fermentum mauris view</p> 
                             <form action="index.html" method="post" class="tm-contact-form">                                
                                 <div class="form-group">
                                     <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
@@ -69,17 +67,18 @@
                         </section>
                         
                         <section class="tm-margin-t-mid tm-map-section">
-                            <h3 class="tm-gold-text tm-form-title">Pellentesque fermentum mauris</h3>
+                            <h3 class="tm-gold-text tm-form-title">Pembahasan VIEW</h3>
 
                             <div id="google-map"></div>
-
-                            <p class="tm-form-description">Morbi vel pharetra massa, non iaculis tortor. Nulla porttitor tincidunt felis et feugiat. Vivamus fermentum ligula justo, sit amet blandit nisl volutpat id.</p>
-
-                            <p class="m-b-0">Donec mattis ipsum in erat viverra commodo. 
-                                Proin sapien lacus, euismod eget nisl in, 
-                                elementum posuere massa. Curabitur a odio
-                                eros. Cras aliquam lectus erat, non semper est
-                                volutpat eget. Ut eget erat tincidunt.</p>
+                            <img src="{{ asset('classic/img/laravel.png') }}" alt="Image" class="tm-margin-b-20 img-fluid">
+                            <p class="m-b-0">View adalah bagian dari MVC yang bertanggung jawab untuk memberikan tampilan ke 
+                            pengguna. Kode-kode HTML, CSS, dan Javascript diletakkan pada View. View disimpan di direktori resources/views.
+                            Laravel membuat view lebih powerful dengan memanfaatkan templating engine yang disebut 
+                            Blade. Blade berguna untuk mempermudah dalam menulis kode tampilan dan memberikan fitur 
+                            tambahan untuk memanipulasi data di view yang dilempar dari controller. Blade juga memungkinkan 
+                            penggunaan plain PHP pada kode View. Karena Laravel menggunakan templating engine bawaan 
+                            Blade, maka setiap file View diakhiri dengan .blade.php. Misal: index.blade.php, home.blade.php, 
+                            product.blade.php</p>
 
                             <a href="#" class="tm-btn tm-margin-t-small">Detail</a> 
                         </section>                        
@@ -93,7 +92,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <div class="tm-aside-container">
                                     <h3 class="tm-gold-text tm-title">
-                                        Minggu 3
+                                    Elementum egestas dui ac
                                     </h3>
                                     <nav>
                                         <ul class="nav">
@@ -129,7 +128,7 @@
                                     <img src="{{ asset('classic/img/foto.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
                                     <h4 class="tm-margin-b-20 tm-gold-text">Biodata</h4>
                                     <p class="tm-margin-b-20 tm-p-small">Nama : Erina Seviyanti<br>Ttl: Tuban,11 Februari 2002
-                                    <br>Alamat:Tuban Jawa Timur<br>Hobi: Melihat Youtube</p>
+                                    <br>Alamat:Tuban Jawa Timur<br>Hobi:Mendengarkan musik,membaca,melihat film</p>
                                     <a href="#" class="tm-btn text-uppercase">Detail</a>    
                                 </div> 
 

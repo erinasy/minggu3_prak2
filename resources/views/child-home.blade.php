@@ -44,19 +44,33 @@
 @section('content')
 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-center">
-                        <h2 class="tm-gold-text tm-title">Introduction</h2>
-                        <p class="tm-subtitle">Suspendisse ut magna vel velit cursus tempor ut nec nunc. Mauris vehicula, augue in tincidunt porta, purus ipsum blandit massa.</p>
+                        <h2 class="tm-gold-text tm-title">VISI & MISI POLITEKNIK NEGERI MALANG</h2>
+                        <p class="tm-subtitle">Visi<br>Menjadi Lembaga Pendidikan Tinggi Vokasi yang Unggul dalam Persaingan Global
+                        <br>Misi<br>
+                        <br>1. Menyelenggarakan dan Mengembangkan Pendidikan Vokasi yang Berkualitas,
+                         Inovatif, dan Berdaya Saing yang Mendorong Pola Pembelajaran Seumur Hidup 
+                         dan Tumbuhnya Jiwa Kewirausahaan serta Sesuai Kebutuhan Industri, Lembaga Pemerintah, dan Masyarakat.
+                        <br>2. Menyelenggarakan Penelitian Terapan yang Bermanfaat bagi Pengembangan 
+                        Ilmu Pengetahuan dan Teknologi serta Kesejahteraan Masyarakat.
+                        <br>3. Menyelenggarakan Pengabdian Kepada Masyarakat yang Bermanfaat bagi 
+                        Kesejahteraan Masyarakat.
+                        <br>4. Menyelenggarakan Sistem Pengelolaan Pendidikan dengan Berdasar 
+                        pada Prinsip-prinsip Tatapamong yang Baik.
+                        <br>5. Mengembangkan Kerjasama yang Saling Menguntungkan dengan Berbaga Pihak,
+                         baik di Dalam maupun di Luar Negeri pada Bidang-bidang yang Relevan.
+                        </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 
                         <div class="tm-content-box">
-                            <img src="{{ asset('classic/img/tm-img-310x180-1.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
-                            <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #1</h4>
-                            <p class="tm-margin-b-20">Aenean cursus tellus mauris, quis
-                            consequat mauris dapibus id. Donec
-                            scelerisque porttitor pharetra</p>
+                            <img src="{{ asset('classic/img/sarjana.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
+                            <h4 class="tm-margin-b-20 tm-gold-text">Program Sarjana</h4>
+                            <p class="tm-margin-b-20">Teknik Elektronika <br>Sistem Kelistrikan<br>Jaringan Telekomunikasi Digital
+                            <br>Teknik Informatika <br>Teknik Mesin Produksi dan Perawatan<br> Teknik Otomotif Elektronik
+                            <br>Manajemen Rekayasa Konstruksi<br> Teknik Kimia Industri <br>Akuntansi Manajemen
+                            <br>Manajemen Pemasaran<br>Keuangan</p>
                             <a href="#" class="tm-btn text-uppercase">Detail</a>    
                         </div>  
 
@@ -65,11 +79,12 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 
                         <div class="tm-content-box">
-                            <img src="{{ asset('classic/img/tm-img-310x180-2.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
-                            <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #2</h4>
-                            <p class="tm-margin-b-20">Aenean cursus tellus mauris, quis
-                            consequat mauris dapibus id. Donec
-                            scelerisque porttitor pharetra</p>
+                            <img src="{{ asset('classic/img/sarjana.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
+                            <h4 class="tm-margin-b-20 tm-gold-text">Program Diploma</h4>
+                            <p class="tm-margin-b-20">Teknik Elektronika<br>Teknik Listrik<br>Teknik Telekomunikasi
+                            <br>Manajemen Informatika<br>Teknik Mesin<br>Teknik Sipil
+                            <br>Teknik Konstruksi Jalan, Jembatan, dan Bangunan Air<br>Teknologi Pertambangan
+                            <br>Teknik Kimia<br>Akuntansi<br>Administrasi Bisnis<br>Bahasa Inggris</p>
                             <a href="#" class="tm-btn text-uppercase">Read More</a>    
                         </div>  
 
@@ -78,11 +93,10 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 
                         <div class="tm-content-box">
-                            <img src="{{ asset('classic/img/tm-img-310x180-3.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
-                            <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #3</h4>
-                            <p class="tm-margin-b-20">Aenean cursus tellus mauris, quis
-                            consequat mauris dapibus id. Donec
-                            scelerisque porttitor pharetra</p>
+                            <img src="{{ asset('classic/img/magister.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
+                            <h4 class="tm-margin-b-20 tm-gold-text">Program Magister</h4>
+                            <p class="tm-margin-b-20">Magister Terapan Teknik Elektro<br>Magister Terapan Sistem Informasi Akuntansi
+                            <br>Magister Terapan Rekayasa Teknologi Manufaktur</p>
                             <a href="#" class="tm-btn text-uppercase">Detail</a>    
                         </div>  
 
@@ -91,11 +105,11 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 
                         <div class="tm-content-box">
-                            <img src="{{ asset('classic/img/tm-img-310x180-4.jpg') }}" alt="Image" class="tm-margin-b-20 img-fluid">
-                            <h4 class="tm-margin-b-20 tm-gold-text">Lorem ipsum dolor #4</h4>
-                            <p class="tm-margin-b-20">Aenean cursus tellus mauris, quis
-                            consequat mauris dapibus id. Donec
-                            scelerisque porttitor pharetra</p>
+                            <img src="{{ asset('classic/img/unit.png') }}" alt="Image" class="tm-margin-b-20 img-fluid">
+                            <h4 class="tm-margin-b-20 tm-gold-text">Unit Layanan</h4>
+                            <p class="tm-margin-b-20">Kantor Penjaminan Mutu (KJM)<br>Bahasa<br>Humas<br>MKU<br>Penelitian dan Pengabdian
+                            <br>Percetakan<br>Perpustakaan<br>Pemeliharaan & Perawatan
+                            <br>Pusat Komputer<br>Organisasi Kemahasiswaan Intern<br>Job Placement Center</p>
                             <a href="#" class="tm-btn text-uppercase">Read More</a>    
                         </div>  
 
@@ -284,7 +298,7 @@
 
                 <div class="row">
                     <div class="col-xs-12 tm-copyright-col">
-                        <p class="tm-copyright-text">Copyright 2016 Your Company Name</p>
+                        <p class="tm-copyright-text">Copyright 2021 Your Erina Seviyanti-2031710012</p>
                     </div>
                 </div>
             </div>
